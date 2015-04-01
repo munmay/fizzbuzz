@@ -1,10 +1,12 @@
 body{
-
 	background-color: pink;
+	left: -1.5em;
+	top: -1em;
+	position: absolute;
 }
 
 #numbers{
 		color: white;
-		font-size: 3em;
-		line-height: 1em;
+		font-size: 15em;
+		line-height: .3em;
 }

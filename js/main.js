@@ -14,19 +14,19 @@ for(var i=0; i<101; i++){
 	var y = 0 + (i*20);
 
     if (i%5 == 0 && i%3 == 0){
-	$('#numbers').append("fizzbuzz <br>");
+	$('#numbers').append("fizzbuzz ");
 	}
 
 	else if (i%3 == 0){
-	$('#numbers').append("fizz <br>");
+	$('#numbers').append("fizz ");
 	}
 
 	else if (i%5 == 0) {
-	$('#numbers').append("buzz <br>");
+	$('#numbers').append("buzz ");
 	}
 
 	else{
-	$('#numbers').append(i + "<br>");
+	$('#numbers').append(i + " ");
 	}
 	
 }
